@@ -133,11 +133,6 @@ module IpgeobaseExt
       	
       	if(!ok) return Qnil;
       	
-      	{
-        	IpEntryMaster *master;
-        	master = entries->master + master_index;
-        	return rb_str_new2(master->city);
-      	}
     	}
     	
     	{
